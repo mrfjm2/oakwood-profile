@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oakwood-profile/static/css/main.349a3f97.css",
-    "main.js": "/oakwood-profile/static/js/main.763bc30e.js",
+    "main.css": "/oakwood-profile/static/css/main.faa41ef3.css",
+    "main.js": "/oakwood-profile/static/js/main.f2d8cb12.js",
     "static/js/453.a7f3b5c6.chunk.js": "/oakwood-profile/static/js/453.a7f3b5c6.chunk.js",
     "static/media/JoineryEight.jpg": "/oakwood-profile/static/media/JoineryEight.274096aff67159509f77.jpg",
     "static/media/BoutiqueFour.jpg": "/oakwood-profile/static/media/BoutiqueFour.fcc575379d3ba1f5c03f.jpg",
@@ -41,12 +41,12 @@
     "static/media/oakwood-logo.png": "/oakwood-profile/static/media/oakwood-logo.0fb5fd3900c80a3cf44f.png",
     "static/media/BoutiqueThree.jpg": "/oakwood-profile/static/media/BoutiqueThree.05c8ed98057f1801c2de.jpg",
     "index.html": "/oakwood-profile/index.html",
-    "main.349a3f97.css.map": "/oakwood-profile/static/css/main.349a3f97.css.map",
-    "main.763bc30e.js.map": "/oakwood-profile/static/js/main.763bc30e.js.map",
+    "main.faa41ef3.css.map": "/oakwood-profile/static/css/main.faa41ef3.css.map",
+    "main.f2d8cb12.js.map": "/oakwood-profile/static/js/main.f2d8cb12.js.map",
     "453.a7f3b5c6.chunk.js.map": "/oakwood-profile/static/js/453.a7f3b5c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.349a3f97.css",
-    "static/js/main.763bc30e.js"
+    "static/css/main.faa41ef3.css",
+    "static/js/main.f2d8cb12.js"
   ]
 }
