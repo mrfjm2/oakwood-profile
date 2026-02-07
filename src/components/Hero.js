@@ -33,6 +33,36 @@ function Hero() {
             <button onClick={scrollToServices} className="btn btn-secondary">View Services</button>
           </div>
         </div>
+        
+        <div className="hero-visual">
+          <div className="hero-decorative">
+            <div className="decorative-shape shape-1"></div>
+            
+            <div className="decorative-card card-1">
+              <div className="card-icon">🏗️</div>
+              <h3 className="card-title">Construction</h3>
+              <p className="card-subtitle">Build with precision</p>
+            </div>
+            
+            <div className="decorative-card card-2">
+              <div className="card-icon">✨</div>
+              <h3 className="card-title">Design</h3>
+              <p className="card-subtitle">Modern spaces</p>
+            </div>
+            
+            <div className="decorative-card card-3">
+              <div className="card-icon">🪵</div>
+              <h3 className="card-title">Joinery</h3>
+              <p className="card-subtitle">Custom crafted</p>
+            </div>
+            
+            <div className="decorative-card card-4">
+              <div className="card-icon">🛋️</div>
+              <h3 className="card-title">Boutique</h3>
+              <p className="card-subtitle">Luxury pieces</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
