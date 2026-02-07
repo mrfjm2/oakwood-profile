@@ -9,6 +9,12 @@
   box-shadow: 0 4px 20px rgba(107, 78, 61, 0.08);
 }
 
+.dark-theme .service-card {
+  background: #2a2a2a;
+  border-color: rgba(212, 165, 116, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
 .service-card::before {
   content: '';
   position: absolute;
@@ -32,6 +38,12 @@
   box-shadow: 0 20px 40px rgba(107, 78, 61, 0.15);
 }
 
+.dark-theme .service-card:hover {
+  background: #333333;
+  border-color: rgba(212, 165, 116, 0.4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
 .service-header {
   text-align: left;
 }
@@ -41,6 +53,40 @@
   align-items: center;
   gap: 12px;
   margin-bottom: 12px;
+}
+
+.instagram-link {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  border-radius: 8px;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  flex-shrink: 0;
+  margin-left: auto;
+  box-shadow: 0 2px 8px rgba(188, 24, 136, 0.2);
+}
+
+.instagram-link:hover {
+  transform: scale(1.1) translateY(-2px);
+  box-shadow: 0 4px 12px rgba(188, 24, 136, 0.4);
+}
+
+.instagram-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.dark-theme .instagram-link {
+  box-shadow: 0 2px 8px rgba(188, 24, 136, 0.3);
+}
+
+.dark-theme .instagram-link:hover {
+  box-shadow: 0 4px 12px rgba(188, 24, 136, 0.5);
 }
 
 .service-icon-small {
@@ -53,6 +99,11 @@
   background: rgba(107, 78, 61, 0.08);
   border-radius: 12px;
   flex-shrink: 0;
+  transition: background 0.3s ease;
+}
+
+.dark-theme .service-icon-small {
+  background: rgba(212, 165, 116, 0.15);
 }
 
 .service-icon {
@@ -77,6 +128,12 @@
   margin-bottom: 0;
   color: #2c2c2c;
   flex: 1;
+  transition: color 0.3s ease;
+  min-width: 0;
+}
+
+.dark-theme .service-title {
+  color: #ffffff;
 }
 
 .service-description {
@@ -85,6 +142,11 @@
   line-height: 1.6;
   margin-bottom: 25px;
   margin-left: 62px;
+  transition: color 0.3s ease;
+}
+
+.dark-theme .service-description {
+  color: #b0b0b0;
 }
 
 .expand-btn {
@@ -149,12 +211,22 @@
   display: flex;
   align-items: flex-start;
   gap: 10px;
+  transition: color 0.3s ease;
+}
+
+.dark-theme .service-list li {
+  color: #b0b0b0;
 }
 
 .bullet {
   color: #6b4e3d;
   font-size: 1.2rem;
   line-height: 1.5;
+  transition: color 0.3s ease;
+}
+
+.dark-theme .bullet {
+  color: #d4a574;
 }
 
 .service-card.expanded {

@@ -1,0 +1,66 @@
+.theme-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.05);
+}
+
+.toggle-track {
+  width: 60px;
+  height: 30px;
+  background: rgba(107, 78, 61, 0.15);
+  border-radius: 15px;
+  position: relative;
+  transition: background 0.3s ease;
+  border: 2px solid rgba(107, 78, 61, 0.2);
+}
+
+.theme-toggle:hover .toggle-track {
+  background: rgba(107, 78, 61, 0.2);
+  border-color: rgba(107, 78, 61, 0.3);
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 2px;
+  width: 22px;
+  height: 22px;
+  background: #6b4e3d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-thumb.light {
+  left: 2px;
+}
+
+.toggle-thumb.dark {
+  left: calc(100% - 24px);
+}
+
+/* Dark theme styles for toggle */
+.dark-theme .toggle-track {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.dark-theme .theme-toggle:hover .toggle-track {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.dark-theme .toggle-thumb {
+  background: #ffffff;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import oakwoodLogo from '../Images/oakwood-logo.png';
+import ThemeToggle from './ThemeToggle';
 
 function Header() {
   return (
@@ -16,10 +17,13 @@ function Header() {
               <p>Construction • Interior Design • Joinery • Boutique</p>
             </div>
           </div>
-          <nav className="nav">
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-          </nav>
+          <div className="header-right">
+            <nav className="nav">
+              <a href="#services">Services</a>
+              <a href="#contact">Contact</a>
+            </nav>
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </header>

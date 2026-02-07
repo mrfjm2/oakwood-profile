@@ -40,11 +40,21 @@
   line-height: 1.2;
   margin-bottom: 30px;
   color: #2c2c2c;
+  transition: color 0.3s ease;
+}
+
+.dark-theme .hero-title {
+  color: #ffffff;
 }
 
 .highlight {
   color: #6b4e3d;
   position: relative;
+  transition: color 0.3s ease;
+}
+
+.dark-theme .highlight {
+  color: #d4a574;
 }
 
 .hero-description {
@@ -53,6 +63,11 @@
   color: #6b6b6b;
   margin-bottom: 40px;
   max-width: 600px;
+  transition: color 0.3s ease;
+}
+
+.dark-theme .hero-description {
+  color: #b0b0b0;
 }
 
 .hero-buttons {

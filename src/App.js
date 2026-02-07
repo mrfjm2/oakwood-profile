@@ -12,6 +12,7 @@ function App() {
       title: 'The Construction',
       description: 'End-to-end builds with engineering oversight',
       icon: '🏗️',
+      instagram: 'https://www.instagram.com/oakwood.group/',
       details: [
         'Full project management from concept to completion',
         'Experienced engineering oversight',
@@ -25,6 +26,7 @@ function App() {
       title: 'The Design',
       description: 'Modern, clean, and easy to maintain spaces',
       icon: '✨',
+      instagram: 'https://www.instagram.com/oakwood.thedesigns',
       details: [
         'Contemporary interior design solutions',
         'Space optimization and planning',
@@ -38,6 +40,7 @@ function App() {
       title: 'The Joinery',
       description: 'Custom kitchens, doors, wardrobes & fit-outs',
       icon: '🪵',
+      instagram: 'https://www.instagram.com/oakwood.thejoinery/',
       details: [
         'Bespoke kitchen installations',
         'Custom wardrobe solutions',
@@ -51,6 +54,7 @@ function App() {
       title: 'The Boutique',
       description: 'Luxury furniture & premium décor pieces',
       icon: '🛋️',
+      instagram: 'https://www.instagram.com/oakwood.theboutique/',
       details: [
         'Curated luxury furniture collection',
         'High-end décor pieces',
