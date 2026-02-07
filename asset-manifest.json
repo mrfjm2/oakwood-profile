@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/oakwood-profile/static/css/main.05d33abf.css",
+    "main.js": "/oakwood-profile/static/js/main.00e83235.js",
+    "static/js/453.a7f3b5c6.chunk.js": "/oakwood-profile/static/js/453.a7f3b5c6.chunk.js",
+    "static/media/oakwood-logo.png": "/oakwood-profile/static/media/oakwood-logo.0fb5fd3900c80a3cf44f.png",
+    "index.html": "/oakwood-profile/index.html",
+    "main.05d33abf.css.map": "/oakwood-profile/static/css/main.05d33abf.css.map",
+    "main.00e83235.js.map": "/oakwood-profile/static/js/main.00e83235.js.map",
+    "453.a7f3b5c6.chunk.js.map": "/oakwood-profile/static/js/453.a7f3b5c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05d33abf.css",
+    "static/js/main.00e83235.js"
+  ]
+}
