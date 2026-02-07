@@ -2,6 +2,20 @@ import React from 'react';
 import './Hero.css';
 
 function Hero() {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToServices = () => {
+    const servicesSection = document.getElementById('services');
+    if (servicesSection) {
+      servicesSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="hero">
       <div className="container">
@@ -15,8 +29,8 @@ function Hero() {
             fully operational.
           </p>
           <div className="hero-buttons">
-            <a href="#contact" className="btn btn-primary">Get In Touch</a>
-            <a href="#services" className="btn btn-secondary">View Services</a>
+            <button onClick={scrollToContact} className="btn btn-primary">Get In Touch</button>
+            <button onClick={scrollToServices} className="btn btn-secondary">View Services</button>
           </div>
         </div>
       </div>

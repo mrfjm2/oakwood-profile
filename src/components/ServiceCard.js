@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ServiceCard.css';
 
-function ServiceCard({ service }) {
+function ServiceCard({ service, onGalleryOpen }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
@@ -40,6 +40,15 @@ function ServiceCard({ service }) {
               </li>
             ))}
           </ul>
+          {service.hasGallery && (
+            <button 
+              className="gallery-btn"
+              onClick={onGalleryOpen}
+            >
+              <span className="gallery-icon">🖼️</span>
+              View Gallery ({service.imageCount} photos)
+            </button>
+          )}
         </div>
       )}
 
